@@ -3,6 +3,8 @@
         "frontend:install": "cd complete && npm install",
         "backend:install": "cd server && npm install",
         "frontend:build": "cd complete && npm run build",
-        "backend:build": "cd server && npm run build"
+        "backend:build": "cd server && npm run build",
+        "frontend:deploy": "cd complete && npm run deploy"
+    
     }
 }
